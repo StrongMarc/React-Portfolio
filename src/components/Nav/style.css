@@ -1,0 +1,9 @@
+/* nav.navbar.navbar-default {
+  margin-bottom: 0;
+} */
+
+nav {
+  padding: 5px;
+  font-size: 25px;
+  background-color: #ffffff;
+}
