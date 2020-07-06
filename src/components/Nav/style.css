@@ -2,8 +2,8 @@
   margin-bottom: 0;
 } */
 
-nav {
+.navbar-nav {
   padding: 5px;
   font-size: 25px;
-  background-color: #ffffff;
+  color: white;
 }

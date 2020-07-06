@@ -7,7 +7,7 @@ function Nav() {
   const location = useLocation();
 
   return (
-    <div className="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+    <div className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
       <ul className="navbar-nav">
         <li className="nav-item">
           <Link to="/" className={location.pathname === "/about" ? "nav-link active" : "nav-link"}>
