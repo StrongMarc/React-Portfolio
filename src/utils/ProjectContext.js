@@ -20,7 +20,7 @@ export const ProjectProvider = props => {
     },
     {
       name: 'Shaker',
-      image: 'images/Collapse.PNG',
+      image: 'images/Collapse.png',
       link: 'https://json-d3rulo.github.io/project-1/',
       repository: 'https://github.com/JSON-D3RULO/project-1.git',
       id: 3
