@@ -2,8 +2,9 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Header from "./components/Header";
 import Nav from "./components/Nav";
+import Wrapper from "./components/Wrapper";
 import About from "./pages/About";
-// import Blog from "./components/pages/Blog";
+import Portfolio from "./pages/Portfolio";
 // import Contact from "./components/pages/Contact";
  
 function App() {
@@ -12,9 +13,11 @@ function App() {
       <div>
         <Header />
         <Nav />
-        <Route exact path="/" component={About} />
-        {/* <Route exact path="/blog" component={Blog} />
-        <Route path="/contact" component={Contact} />  */}
+        <Wrapper>
+          <Route exact path="/" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          {/* <Route path="/contact" component={Contact} />  */}
+        </Wrapper>
       </div>
     </Router>
   );
