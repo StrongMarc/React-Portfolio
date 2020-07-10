@@ -1,11 +1,11 @@
 import React from "react";
-// import "./style.css";
+import "./style.css";
 
 function Contact() {
 
   return (
     <div className="card">
-      <h2>Contact Info</h2>
+      <h2 className="contact">Contact Info</h2>
       <ul>
         <li>
           {/* https://www.000webhost.com/blog/make-a-phone-number-clickable */}
