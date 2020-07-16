@@ -6,6 +6,10 @@ function Nav() {
 
   const location = useLocation();
 
+  function gitHubPage() {
+    window.location.assign("https://github.com/StrongMarc")
+  }
+
   return (
     <div className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-center">
       <ul className="navbar-nav">
@@ -22,7 +26,7 @@ function Nav() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link
+          <Link onClick={gitHubPage}
             to="/github"
             className={location.pathname === "/github" ? "nav-link active" : "nav-link"}>
             GitHub

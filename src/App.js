@@ -5,7 +5,7 @@ import Nav from "./components/Nav";
 import Wrapper from "./components/Wrapper";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
-// import Contact from "./components/pages/Contact";
+// import github from "./components/pages/Github";
  
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Wrapper>
           <Route exact path="/" component={About} />
           <Route exact path="/portfolio" component={Portfolio} />
-          {/* <Route path="/contact" component={Contact} />  */}
+          {/* <Route path="/github" component={github} />  */}
         </Wrapper>
       </div>
     </Router>

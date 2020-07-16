@@ -13,10 +13,10 @@ function Portfolio() {
       <ProjectProvider>
         {/* <div> */}
           <h2 className="text-center title">Projects</h2>
-          <div className="card-group">
+      
           <ProjectCard />
         {/* </div> */}
-          </div>
+         
       </ProjectProvider>
     // </Row>
     // </Container>
